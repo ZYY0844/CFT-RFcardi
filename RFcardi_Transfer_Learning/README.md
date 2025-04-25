@@ -7,7 +7,16 @@
 Dataset for RFcardi training (including spectrogram of radar inputs (sst), ECG ground truth and sparse signal ground truth (anchor))
 
 ```shell
-
+https://drive.google.com/file/d/1Xv03591LUCHwZmTxPxYn0zPKWKMbwK2X/view?usp=sharing
 ```
 
-Dataset for the CFT reuqires the orignal radar output file (i.e., ``.bin file``). Due to the 
+Dataset for the CFT reuqires the orignal radar output. A quick validation can be performed using example data
+```shell
+https://drive.google.com/file/d/14IG14XCYOf5oE9WRu38fSTcF6vWnfQx8/view?usp=sharing
+```
+
+The full dataset (50GB) can be downloaded from
+```shell
+https://pan.baidu.com/s/150R0nsRdXp1dHC12xQR8cQ?pwd=gcq4
+```
+with original ADC data ``.bin file``, processed FMCW data structure ``.npy file``, (chirp, frame, antenna).
