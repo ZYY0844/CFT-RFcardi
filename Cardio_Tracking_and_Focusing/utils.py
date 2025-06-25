@@ -100,7 +100,7 @@ def calculation(dataCube, voxel_location, antenna_location, info, c = 299792458)
             # Antennas 1、3、5、7、9、11 need to inverse the phase
             # if channel in [1, 3, 5, 7, 9, 11]:
             #     phase_shift *= -1
-            if channel in [5,6,7,8]:
+            if channel in [1,3,9,11]:
                 phase_shift *= -1
             
             for chirp_idx in range(1):  # 1 chirp
