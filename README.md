@@ -35,8 +35,10 @@ RFcardi_Transfer_Learning/Projects/radarODE_transfer/utils/visualization.ipynb
 Dataset for RFcardi training (including spectrogram of radar inputs (sst), ECG ground truth and sparse signal ground truth (anchor))
 
 ```shell
-https://drive.google.com/file/d/1Xv03591LUCHwZmTxPxYn0zPKWKMbwK2X/view?usp=sharing
+https://pan.baidu.com/s/1AO2Hs3ucRskONVo_xBgCog?pwd=3v39
 ```
+
+The link for Google Drive will be provided soon.
 
 Dataset for the CFT reuqires the orignal radar output. A quick validation can be performed using example data
 ```shell

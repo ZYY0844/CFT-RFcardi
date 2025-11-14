@@ -66,11 +66,11 @@ def main(params, hyper,portion):
                                'metrics_fn': shapeMetric(),
                                'loss_fn': shapeLoss(),
                                'weight': [0, 0, 0]},    
-                # for SSL stage, comment out during fine-tuning                    
-                 'Anchor': {'metrics': ["mse", 'sparseness'],
-                            'metrics_fn': anchorMetric(),
-                            'loss_fn': anchorLoss(),
-                            'weight': [0]}
+                # # for SSL stage, comment out during fine-tuning                    
+                #  'Anchor': {'metrics': ["mse", 'sparseness'],
+                #             'metrics_fn': anchorMetric(),
+                #             'loss_fn': anchorLoss(),
+                #             'weight': [0]}
                             }
 
     # # define backbone and en/decoders
