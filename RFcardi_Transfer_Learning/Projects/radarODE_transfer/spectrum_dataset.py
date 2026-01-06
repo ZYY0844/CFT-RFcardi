@@ -20,18 +20,19 @@ def normal_ecg_11(ECG):
 
 def get_all_files_in_directory(directory):
     file_paths = []
-    if 'data_seg_transfer' not in directory:
-        return get_all_files_in_directory_2(directory)
-    for root, dirs, files in os.walk(directory):
-        for i in range(len(files) // 3):
-            sst_ecg_pair = []
-            sst_ecg_pair.append(os.path.join(
-                root, "sst_seg_" + str(i) + '.npy'))
-            sst_ecg_pair.append(os.path.join(root, "ecg_seg_"+str(i)+'.npy'))
-            sst_ecg_pair.append(os.path.join(
-                root, "anchor_seg_"+str(i)+'.npy'))
-            file_paths.append(sst_ecg_pair)
-    return file_paths
+    # if 'data_seg_transfer' not in directory:
+    return get_all_files_in_directory_2(directory)
+    
+    # for root, dirs, files in os.walk(directory):
+    #     for i in range(len(files) // 3):
+    #         sst_ecg_pair = []
+    #         sst_ecg_pair.append(os.path.join(
+    #             root, "sst_seg_" + str(i) + '.npy'))
+    #         sst_ecg_pair.append(os.path.join(root, "ecg_seg_"+str(i)+'.npy'))
+    #         sst_ecg_pair.append(os.path.join(
+    #             root, "anchor_seg_"+str(i)+'.npy'))
+    #         file_paths.append(sst_ecg_pair)
+    # return file_paths
 
 def get_all_files_in_directory_2(directory):
     file_paths = []
